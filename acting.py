@@ -56,7 +56,7 @@ def epistemic_values(b, probes):
 
 
 def run_batch(dose, r, rng, n, gamma_0=3.0, steps=14, alpha=8.0,
-              confusable=True, k=K, miscalibrated=False):
+              confusable=True, k=K, miscalibrated=False, deep_cost=0.0):
     """Returns (final beliefs (n,k), deep-probe usage rate per trial (n,)).
 
     With miscalibrated=True the world stays confusable but the agent's internal
@@ -79,6 +79,7 @@ def run_batch(dose, r, rng, n, gamma_0=3.0, steps=14, alpha=8.0,
     idx = np.arange(n)
     for _ in range(steps):
         ev = epistemic_values(b, model)
+        ev[:, deep_idx] -= deep_cost   # pragmatic cost of the diagnostic test
         w = np.exp(alpha * (ev - ev.max(axis=1, keepdims=True)))
         w /= w.sum(axis=1, keepdims=True)
         choice = (w.cumsum(axis=1) < rng.random((n, 1))).sum(axis=1)
