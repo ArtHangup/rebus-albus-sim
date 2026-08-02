@@ -56,9 +56,16 @@ def epistemic_values(b, probes):
 
 
 def run_batch(dose, r, rng, n, gamma_0=3.0, steps=14, alpha=8.0,
-              confusable=True, k=K):
-    """Returns (final beliefs (n,k), deep-probe usage rate per trial (n,))."""
-    probes = probe_set(r, confusable=confusable, k=k)
+              confusable=True, k=K, miscalibrated=False):
+    """Returns (final beliefs (n,k), deep-probe usage rate per trial (n,)).
+
+    With miscalibrated=True the world stays confusable but the agent's internal
+    model believes every shallow probe is fully diagnostic. Observations are
+    sampled from the true world and updated through the agent's wrong model.
+    """
+    probes = probe_set(r, confusable=confusable, k=k)        # the world
+    model = probe_set(r, confusable=not miscalibrated and confusable, k=k) \
+        if miscalibrated else probes                          # what the agent believes
     n_probes = probes.shape[0]
     deep_idx = n_probes - 1
 
@@ -71,16 +78,17 @@ def run_batch(dose, r, rng, n, gamma_0=3.0, steps=14, alpha=8.0,
     deep = np.zeros(n)
     idx = np.arange(n)
     for _ in range(steps):
-        ev = epistemic_values(b, probes)
+        ev = epistemic_values(b, model)
         w = np.exp(alpha * (ev - ev.max(axis=1, keepdims=True)))
         w /= w.sum(axis=1, keepdims=True)
         choice = (w.cumsum(axis=1) < rng.random((n, 1))).sum(axis=1)
         choice = np.minimum(choice, n_probes - 1)
         deep += (choice == deep_idx)
 
-        a = probes[choice]                                    # (n, 2, k)
-        obs = (rng.random(n) >= a[:, 0, TRUE]).astype(int)    # 0 = "yes"
-        b = b * a[idx, obs, :]
+        a_world = probes[choice]                              # (n, 2, k)
+        a_model = model[choice]
+        obs = (rng.random(n) >= a_world[:, 0, TRUE]).astype(int)   # 0 = "yes"
+        b = b * a_model[idx, obs, :]
         b /= b.sum(axis=1, keepdims=True)
     return b, deep / steps
 
