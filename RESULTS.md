@@ -51,10 +51,19 @@ Up to a quarter of agents end up permanently holding a belief the world does not
 and they get there through the identical mechanism that produces genuine insight, at the
 identical threshold.
 
-**The mechanism that makes this work is the mechanism that makes it dangerous, and no
-setting of `c` separates them.** What separates them is the quality of the evidence
-present during the window, which is the only lever in the model that discriminates true
-from false. That is a derived argument for set and setting rather than an asserted one.
+> **CORRECTED by ROBUSTNESS.md.** The claim below, that no setting of `c` separates true
+> from false insight, holds only for the arithmetic-mixture mechanism used here. Under
+> three other defensible mechanisms the separation is wide, and under one of them poor
+> evidence never produces a persistent false belief at all. The invariant that survives all
+> four is weaker and more useful: **false insight always requires more consolidation than
+> true insight, so a safe window exists**, and its width depends on which mechanism is
+> right. Read section 3 of ROBUSTNESS.md instead of the paragraph below.
+
+The mechanism that makes this work is the mechanism that makes it dangerous, and in this
+parameterization no setting of `c` separates them. What separates them is the quality of
+the evidence present during the window, which is the only lever in the model that
+discriminates true from false. That is a derived argument for set and setting rather than
+an asserted one.
 
 ## 4. SEBUS does not emerge (preregistered prediction 3, confirmed)
 
