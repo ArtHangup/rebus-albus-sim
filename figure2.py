@@ -15,13 +15,18 @@ g=lambda k,r,dd,c: M[f"{k}|{r}|{dd}|{c}"]
 
 fig,ax=plt.subplots(1,3,figsize=(15.5,4.8))
 
-# A: dose dependence at full consolidation
+# A: dose dependence at c = 0.8. Not 1.0: at full consolidation P-A and P-B coincide
+# exactly (both reduce to the window belief), so the P-A curve hides under P-B.
+C_A=0.8
 for k in P:
-    ax[0].plot(DOSES,[g(k,r_hi,dd,1.0)[0] for dd in DOSES],lw=2.2,color=COL[k],label=LBL[k])
-ax[0].set_title("A. Does the drug change the lasting outcome?\nOnly if consolidation acts on the belief reached")
+    ax[0].plot(DOSES,[g(k,r_hi,dd,C_A)[0] for dd in DOSES],lw=2.2,color=COL[k],label=LBL[k])
+ax[0].set_title(f"A. Does the drug change the lasting outcome?\nOnly if consolidation acts on the belief reached (c = {C_A})")
 ax[0].set_xlabel("dose (prior precision reduction)"); ax[0].set_ylabel("persistent insight rate")
-ax[0].set_ylim(0.55,1.0); ax[0].legend(fontsize=8,loc="lower right"); ax[0].grid(alpha=.25)
-ax[0].annotate("flat: dose is causally irrelevant",xy=(0.5,0.9634),xytext=(0.32,0.995),
+ax[0].set_ylim(0.38,1.02); ax[0].legend(fontsize=8,loc="lower right"); ax[0].grid(alpha=.25)
+pc=g("P-C_attractor",r_hi,0.5,C_A)[0]; pd=g("P-D_memory",r_hi,0.5,C_A)[0]
+ax[0].annotate("flat: dose is causally irrelevant",xy=(0.35,pc),xytext=(0.13,pc-0.055),
+    fontsize=8,arrowprops=dict(arrowstyle="->",lw=.9))
+ax[0].annotate("flat again, at the worst outcome",xy=(0.38,pd),xytext=(0.02,pd-0.045),
     fontsize=8,arrowprops=dict(arrowstyle="->",lw=.9))
 
 # B: the safe window

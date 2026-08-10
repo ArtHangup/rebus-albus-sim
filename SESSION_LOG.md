@@ -6,6 +6,13 @@ Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
 ### Figure fixes
 
+- **figure2.py**: panel A redrawn at c = 0.8 instead of c = 1.0. At full consolidation
+  P-A and P-B coincide exactly (both reduce to the window belief), so the P-A curve was
+  invisible under P-B. At 0.8 they separate; both flat mechanisms (P-C at 0.952, P-D at
+  0.443) are labeled.
+- **figure3.py**: panel B annotations moved inside the axes (one was colliding with the
+  title) and off the curves.
+
 - **dense_grids.py / dense_grids.json**: resolution-only recompute of the three
   figure_main quantities (predictions 6, 8, 3) at 41 doses x 41 consolidation levels x
   20,000 paired trials. No new hypotheses, no new arms, mechanism byte-identical to
