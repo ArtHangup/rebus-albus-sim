@@ -23,9 +23,10 @@ for c,col in zip(COSTS,cm):
     ax[1].plot(DO,[d["grid"][f"{c}|{dd}"]["deep_rate"] for dd in DO],lw=2,color=col)
 ax[1].set_title("B. The mediator: dose makes the agent\nrun the test it was avoiding")
 ax[1].set_xlabel("dose"); ax[1].set_ylabel("diagnostic-test usage rate"); ax[1].grid(alpha=.25)
-ax[1].annotate("no cost: flat, even falling",xy=(.6,.242),xytext=(.28,.29),fontsize=8,
+ax[1].set_ylim(-0.012,0.285)
+ax[1].annotate("no cost: flat, even falling",xy=(.45,.249),xytext=(.02,.267),fontsize=8,
     arrowprops=dict(arrowstyle="->",lw=.9))
-ax[1].annotate("costly: rises with dose",xy=(.7,.099),xytext=(.36,.16),fontsize=8,
+ax[1].annotate("costly: rises with dose",xy=(.7,.099),xytext=(.2,.114),fontsize=8,
     arrowprops=dict(arrowstyle="->",lw=.9))
 
 G="3.0"; b3=0.8007
