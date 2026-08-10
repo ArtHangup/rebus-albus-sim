@@ -4,6 +4,30 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### Later the same day: defensive edits and the gain-vs-avoidance arm
+
+- Defensive edits after an attack review with Josh: "never states" became "never
+  specifies" in the abstract and manuscript (titles included), "no route through
+  precision" became "no route through precision reduction," and both files now
+  carry the by-construction scope note about ALBUS's gain mechanism.
+- AMENDMENT_7 (commit 156c626, declared before code): implemented ALBUS's own
+  mechanism, gamma(d) = gamma_0(1-d)(1+Ad), head to head with avoidance.
+  Predictions 27 to 29 all resolved, see GAIN_RESULTS.md. Headlines: gain cannot
+  produce literal SEBUS against a freely run test at any strength tried; gain alone
+  never entrenches after consolidation; gain amplifies avoidance (SEBUS region
+  0.23 wide at A=0 cost 0.3, 0.80 wide at A=4); and in post hoc cells (cost 0.1,
+  A=4, labeled) the SEBUS region detaches from dose zero, the one regime where the
+  drug actively adds strengthening, requiring both mechanisms jointly. The
+  mediator separates the accounts by sign: gain suppresses diagnostic engagement
+  at low dose, avoidance never does.
+- The "drug never adds strengthening" claim in ACTING_RESULTS.md is now known to be
+  mapping-scoped; the poster abstract notes carry the qualified version. The
+  manuscript (scope: amendments 1 to 5) remains accurate as written but the
+  fold-in decision now covers amendments 6 and 7.
+- Open question raised by the attack review, not yet acted on: the local git
+  history is self-hosted preregistration; pushing the repo to a public remote
+  would third-party timestamp everything from that point on. Josh's call.
+
 ### State at close
 
 Everything committed. Deliverables all done: abstract draft 4 ready for Josh (outer
