@@ -23,9 +23,9 @@ One-parameter extension of the preregistered dose mapping:
 
 - `A = 0` recovers the original REBUS mapping exactly.
 - `A > 1` gives a low-dose gain peak: maximum `gamma_0 * (A+1)^2 / (4A)` at
-  `d* = (A-1) / (2A)`, returning to `gamma_0` at `d = 1/... ` and to full relaxation
-  (gamma 0) at `d = 1`. This is the qualitative ALBUS shape: strengthen low, relax
-  high, one knob controlling how strong the low-dose regime is.
+  `d* = (A-1) / (2A)`, crossing back through `gamma_0` at `d = (A-1)/A` and reaching
+  full relaxation (gamma 0) at `d = 1`. This is the qualitative ALBUS shape:
+  strengthen low, relax high, one knob controlling how strong the low-dose regime is.
 - `A` swept over {0, 1, 2, 4}. If nothing measurable changes anywhere at A = 4, extend
   once to A = 8 before concluding the gain is too weak; declared here so it is not a
   post hoc choice.
