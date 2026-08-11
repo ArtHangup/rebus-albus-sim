@@ -54,6 +54,14 @@ strengthen only through avoidance (emergent) or through gain plus avoidance
 (assumed plus emergent); every other mechanism tried leaves conviction at or below
 its starting point.
 
+> **CORRECTED by SESSIONS_RESULTS.md, same-day.** The freeze described below is a
+> within-session phenomenon. Run across repeated sessions (AMENDMENT_9), the sealed
+> belief leaks a little each session, the leak weakens the top-down grip, and
+> erosion accelerates: majority insight arrives by session 8 (fixed mass) or 23
+> (accumulating mass) in a stationary world. Self-sealing is a strong distortion
+> and a multi-session delay, not destiny. Read the sentence "no amount of learning
+> erodes the belief" as "no amount of learning *within one session*."
+
 **What appeared instead is self-sealing, which is arguably the better result.**
 Lasting conviction at dose 0, as learning amount E grows 32-fold:
 
