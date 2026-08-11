@@ -1,9 +1,50 @@
 # Preprint submission package: paper 1
 
-**STATUS 2026-08-10: SUBMITTED to PsyArXiv, pending moderation.** Public
-preregistration answered "Unavailable" on the form (git audit trail, not a
-registry deposit; the honest answer). When it goes live, record the DOI here, in
-SESSION_LOG.md, and on the poster.
+**STATUS 2026-08-12: REJECTED by PsyArXiv moderation.** Grounds: their expertise
+policy ("we need to look at the author's expertise via past publications"; no
+prior peer-reviewed record found). The manuscript itself was not evaluated.
+Decision marked final; do not resubmit there. An appeal exists (see below) and is
+optional. **ACTIVE PLAN: Zenodo** for the DOI (no moderation, no credential
+screen, sign in with the GitHub account that already owns the repo), then a
+peer-reviewed journal submission as the durable fix, since journals evaluate the
+manuscript rather than the author, and one published paper dissolves this wall
+permanently.
+
+## Zenodo upload (5 minutes, your GitHub login)
+
+1. zenodo.org, Sign in with GitHub (ArtHangup).
+2. New upload. Attach paper/main.pdf.
+3. Resource type: Preprint. Title, author, abstract, keywords: paste from the
+   fields below. License: CC-BY 4.0. Add the repo URL under Related works
+   (is supplemented by).
+4. Publish. The DOI is minted instantly; it also supports versioning for later
+   revisions.
+5. Optional, recommended: in Zenodo's GitHub integration, flip the switch on
+   rebus-albus-sim and cut a release; the frozen code gets its own DOI, and the
+   poster can cite paper and code separately.
+6. Record the DOI here, in SESSION_LOG.md, and add the DOI QR to the poster.
+
+## Optional appeal to PsyArXiv (low odds; costs one email)
+
+Per their appeals page. Draft, factual and short:
+
+> Dear PsyArXiv moderators,
+>
+> I am appealing the rejection of "What the Theory Never Specifies:
+> Preregistered Simulations of REBUS and ALBUS." The stated grounds were the
+> absence of prior peer-reviewed publications by the author. As I understand the
+> March 2026 moderation policy, the past-publication check applies to formats
+> such as reviews, case studies, and opinion pieces. This submission is an
+> original research article reporting preregistered computational experiments,
+> with all code, declarations, and results public at
+> github.com/ArtHangup/rebus-albus-sim, where the commit history orders every
+> preregistered declaration before its implementing code. I would respectfully
+> ask that the work be assessed as a research article on its verifiable record
+> rather than under the format policy for expertise-dependent submissions. If
+> the policy is intended to apply to all first-time authors regardless of
+> format, I accept the decision and thank you for your time.
+>
+> Joshua Rogers
 
 Prepared 2026-08-10. Everything below is ready to paste. The upload itself needs
 your OSF login, so the final steps are yours; nothing here has been posted

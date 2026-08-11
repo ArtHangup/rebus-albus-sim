@@ -4,6 +4,23 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### 2026-08-12: PsyArXiv REJECTED paper 1 on credentials; plan B active
+
+- Moderator rejection, final: their expertise policy requires prior peer-reviewed
+  publications for the format, none found for Josh. The manuscript was not
+  evaluated; the CV was. Do not resubmit there.
+- Plan on file in paper/SUBMISSION.md: (1) Zenodo upload with Josh's GitHub
+  login for an instant DOI, no credential screen, plus optional repo-release DOI
+  via Zenodo's GitHub integration; (2) optional one-email appeal, drafted in the
+  package (grounds: the past-publication check is written for reviews and
+  opinion formats, this is an original research article with a verifiable
+  record); (3) the durable fix is journal submission, since journals review
+  manuscripts, not authors, and one published paper removes this wall
+  everywhere. Venue and fee scouting for the journal route is the named next
+  research task (watch APCs; independent researcher budget).
+- Poster consequence: none blocked. The DOI QR slot fills from Zenodo instead.
+  Article pitch timing keys off the Zenodo DOI now.
+
 ### 2026-08-11: POSTER BUILT
 
 - poster/poster.tex compiles to a print-exact 48 x 36 inch horizontal PDF
