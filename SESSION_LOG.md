@@ -4,6 +4,17 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### Preprint SUBMITTED (2026-08-10, evening)
+
+- Paper 1 uploaded to PsyArXiv by Josh, pending moderation (typically 1 to 2
+  days). The OSF affiliation concern resolved via the plain email signup.
+  "Public Preregistration" answered Unavailable on the form: the git trail is
+  not a registry deposit, and the paper says only what is true about it.
+- WHEN LIVE: record the DOI here and in paper/SUBMISSION.md; add DOI + QR to the
+  poster; consider a one-sentence registry-disclosure addition to the
+  Reproducibility section in the next version. For paper 2: preregister on OSF
+  Registries BEFORE running further arms, so the next form answer is Available.
+
 ### Repo is PUBLIC (2026-08-10)
 
 - https://github.com/ArtHangup/rebus-albus-sim, pushed with full history, so all

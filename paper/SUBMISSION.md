@@ -1,5 +1,10 @@
 # Preprint submission package: paper 1
 
+**STATUS 2026-08-10: SUBMITTED to PsyArXiv, pending moderation.** Public
+preregistration answered "Unavailable" on the form (git audit trail, not a
+registry deposit; the honest answer). When it goes live, record the DOI here, in
+SESSION_LOG.md, and on the poster.
+
 Prepared 2026-08-10. Everything below is ready to paste. The upload itself needs
 your OSF login, so the final steps are yours; nothing here has been posted
 anywhere.
