@@ -4,6 +4,25 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### 2026-08-11: paper 2 written, interior window confirmed, abstract at draft 7
+
+- AMENDMENT_11 (commit 27da277, pushed publicly BEFORE the run: first externally
+  timestamped declaration in the project): confirmatory fresh-seed replication of
+  the gain arm's post hoc cells. P42 to 44 all confirmed within declared
+  tolerance (interior window 0.17 to 0.55 vs original 0.17 to 0.57). Post hoc
+  label removed from GAIN_RESULTS.md.
+- paper2/main.tex: full manuscript for amendments 6 to 11 under the
+  precision-modulated-exposure framing, safety-behaviors literature leading,
+  convergence-not-discovery stance, five figures, failed predictions and both
+  corrections in the record. Compiles under tectonic (12 pages).
+- POSTER_ABSTRACT.md at draft 7 (outer repo): Josh's draft 6 decision preserved
+  (REBUS/ALBUS only, gwbench corner panel + QR); added the ratchet/exposure
+  material to the body (295 words), a fourth fork-table row, and the ratchet
+  panel note pointing at figure_ratchet.png and paper2/main.pdf.
+- Conference plan: abstract (Josh sends by Sunday 8/16); poster carries the
+  window map, the gain discriminator, and the ratchet as the centerpiece, with
+  QRs to the paper 1 preprint (DOI pending moderation) and the public repo.
+
 ### Preprint SUBMITTED (2026-08-10, evening)
 
 - Paper 1 uploaded to PsyArXiv by Josh, pending moderation (typically 1 to 2
