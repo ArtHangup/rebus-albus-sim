@@ -4,6 +4,17 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### 2026-08-11: POSTER BUILT
+
+- poster/poster.tex compiles to a print-exact 48 x 36 inch horizontal PDF
+  (tectonic; print at 100 percent, no fit-to-page). Layout: title band with repo
+  QR top right; setup panel; fork panel (figure_robustness with side caption);
+  avoidance / gain / window row; ratchet band as the red-bordered centerpiece
+  with the takeaways panel. Committed including the PDF (it is the deliverable).
+- BEFORE PRINTING IN OCTOBER: add the paper 1 DOI QR beside the repo QR (slot
+  reserved; note at top of poster.tex), regenerate, reprint check. Print vendor
+  needs matte or satin, 48x36, no scaling.
+
 ### 2026-08-11: ABSTRACT SUBMITTED to BCSP
 
 - Josh submitted draft 8 (446 words) through the conference Typeform, five days
