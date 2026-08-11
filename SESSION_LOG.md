@@ -4,7 +4,27 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
-### Latest: the ratchet arm (AMENDMENT_10, capture plus avoidance)
+### Latest: safety-behaviors literature integrated; preprint package ready
+
+- Verified and integrated the prior-art literature the avoidance results needed:
+  Salkovskis 1991 (safety behaviors prevent disconfirmation), Foa and Kozak 1986,
+  Craske et al. 2014 (exposure/inhibitory learning), Wolff et al. 2020 (verbal
+  model: psychedelic relaxation enables avoidance-free exposure), Zeifman et al.
+  2020 (experiential avoidance reductions track outcomes), plus computational
+  psychosis (Corlett 2010, Adams 2013, Sterzer 2018). Positioning everywhere is
+  "convergence, not discovery": the formal additions are necessity (three
+  precision mechanisms fail), the derived drug role (repricing the avoided test),
+  the ceiling, the dose-zero peak, and the mediator.
+- paper/main.tex: new related-work paragraph, "Relation to the exposure account"
+  in the discussion, 8 new bibitems; compiles clean. ACTING_RESULTS.md and
+  RATCHET_RESULTS.md carry matching prior-art notes.
+- paper/SUBMISSION.md: complete PsyArXiv handoff package (venue rationale,
+  paste-ready metadata, plain-text abstract, license, steps). BLOCKED ON JOSH:
+  the OSF login and upload are his; also his call whether to make the repo
+  public first (gh command in the package; recommended so the preregistration
+  hashes are auditable and the poster can carry the DOI).
+
+### Previous: the ratchet arm (AMENDMENT_10, capture plus avoidance)
 
 - Declared predictions 38 to 41 at ca798a0 before ratchet.py existed. Acting agent
   (costly deep probe) with capture-weighted learning across sessions.
