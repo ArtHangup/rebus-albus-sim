@@ -28,8 +28,8 @@
 
 \newcommand{\panelhead}[1]{{\fontsize{40}{46}\selectfont\bfseries\color{slate}#1}\\[0.14in]
 {\color{accent}\rule{2.6in}{3pt}}\\[0.2in]}
-\newcommand{\body}[1]{{\fontsize{24}{31}\selectfont\color{slate}#1}}
-\newcommand{\pcap}[1]{{\fontsize{21}{27}\selectfont\color{slate}#1}}
+\newcommand{\body}[1]{{\fontsize{27}{35}\selectfont\color{slate}#1}}
+\newcommand{\pcap}[1]{{\fontsize{26}{34}\selectfont\color{slate}#1}}
 
 \begin{document}
 \null
@@ -67,17 +67,19 @@ $\gamma(d)=\gamma_0(1-d)$.\\[0.22in]
 \textbf{The rules:} every mapping was committed to a public git history before the
 code that tested it existed, across 11 amendments and 44 numbered predictions.
 Predictions that failed are reported on this poster, because the failures produced
-the best results.}
+the best results.\\[0.22in]
+\textbf{Scale:} roughly three billion simulated agents across eleven arms, all local
+compute, zero API spend.}
 \end{tcolorbox}
 \end{textblock*}
 
 \begin{textblock*}{32.35in}(14.75in,4.15in)
 \begin{tcolorbox}[poster, height=10.05in]
 \panelhead{Nothing lasts as stated, and an unstated assumption decides whether the drug matters}
-\begin{minipage}[t]{21.9in}
+\begin{minipage}[c]{21.9in}
 \includegraphics[width=21.9in]{figure_robustness.png}
 \end{minipage}\hfill
-\begin{minipage}[t]{8.9in}
+\begin{minipage}[c]{8.9in}
 \pcap{Literal REBUS produces zero lasting change: dose enters only through a precision
 that reverts, so it cannot reach the outcome. Consolidation must be added, and it acts
 as a gate. But four defensible readings of what consolidation operates on disagree
@@ -92,34 +94,40 @@ treatable. Neither REBUS nor REBAS states which reading is right; each is measur
 \begin{textblock*}{15.1in}(0.7in,14.5in)
 \begin{tcolorbox}[poster, height=10.0in]
 \panelhead{Strengthening is avoidance}
-\begin{center}\includegraphics[width=14.3in]{figure_acting.png}\end{center}
+\begin{center}\includegraphics[width=14.5in]{figure_acting.png}\end{center}
 \pcap{SEBUS never emerges from precision mechanics: passive relaxation, epistemic
 action, and miscalibrated self-knowledge all fail. It appears only when the one
 diagnostic test carries a cost the agent declines to pay. The mediator shows the
 drug's derivable role: relaxation raises the value of the avoided test until it is
-worth running. Above a cost ceiling, no dose helps.}
+worth running. Above a cost ceiling, no dose helps.}\\[0.22in]
+{\fontsize{24}{30}\selectfont\bfseries\color{accent}The numbers: SEBUS appears
+between cost 0.2 and 0.3; at cost 1.2 the test never runs and no dose helps.}
 \end{tcolorbox}
 \end{textblock*}
 
 \begin{textblock*}{15.1in}(16.35in,14.5in)
 \begin{tcolorbox}[poster, height=10.0in]
 \panelhead{ALBUS's own mechanism needs avoidance too}
-\begin{center}\includegraphics[width=14.3in]{figure_gain.png}\end{center}
+\begin{center}\includegraphics[width=14.5in]{figure_gain.png}\end{center}
 \pcap{A low-dose gain increase, implemented honestly, cannot beat a freely run test
 and cannot entrench without a cost. The accounts separate by sign: gain says the
 drug suppresses checking at low dose, avoidance says it never does. Drug-added
-strengthening exists in one confirmed regime only: gain and cost together.}
+strengthening exists in one confirmed regime only: gain and cost together.}\\[0.22in]
+{\fontsize{24}{30}\selectfont\bfseries\color{accent}The numbers: the confirmed
+interior window spans doses 0.17 to 0.55 at strong gain with cost 0.1.}
 \end{tcolorbox}
 \end{textblock*}
 
 \begin{textblock*}{15.1in}(32.0in,14.5in)
 \begin{tcolorbox}[poster, height=10.0in]
 \panelhead{The therapeutic window is three-dimensional}
-\begin{center}\includegraphics[width=14.3in]{figure_window.png}\end{center}
+\begin{center}\includegraphics[width=14.5in]{figure_window.png}\end{center}
 \pcap{Dose must clear a cost-dependent crossover, cost must sit below the ceiling,
 and integration must capture the state after the avoided test has run. Miss a
 coordinate and the same session entrenches the belief, or dissolves it without
-replacing it: lasting conviction falls while insight never arrives.}
+replacing it: lasting conviction falls while insight never arrives.}\\[0.22in]
+{\fontsize{24}{30}\selectfont\bfseries\color{accent}The numbers: lasting crossovers
+sit at the acute ones, doses 0.25, 0.45, 0.55 at costs 0.3, 0.5, 0.8.}
 \end{tcolorbox}
 \end{textblock*}
 
@@ -127,7 +135,7 @@ replacing it: lasting conviction falls while insight never arrives.}
 \begin{textblock*}{29.6in}(0.7in,24.85in)
 \begin{tcolorbox}[poster, height=10.45in, colframe=accent, boxrule=2.4pt]
 \panelhead{The ratchet: how a belief becomes chronic}
-\begin{center}\includegraphics[width=24.9in]{figure_ratchet.png}\end{center}
+\begin{center}\includegraphics[width=24.4in]{figure_ratchet.png}\end{center}
 \pcap{Avoidance alone is self-limiting: refusing the test stores up the doubt that
 eventually reopens it. Biased interpretation never credits that doubt: conviction
 climbs from 0.80 to 0.99 and locks. \textbf{Avoidance loads the trap, capture locks
@@ -139,7 +147,7 @@ dissolves without being replaced, or memory outruns the course.}
 \begin{textblock*}{16.25in}(30.85in,24.85in)
 \begin{tcolorbox}[poster, height=10.45in]
 \panelhead{What to take home}
-\body{\begin{itemize}[leftmargin=0.55in, itemsep=0.16in]
+\body{\begin{itemize}[leftmargin=0.6in, itemsep=0.2in]
 \item Integration, not dose, gates lasting change; which quantity it operates on is
 an unstated assumption that flips the answer.
 \item The drug's derivable role is to make an avoided disconfirming test worth
