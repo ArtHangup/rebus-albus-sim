@@ -12,21 +12,11 @@ and it is where the REBAS and psychedelic-psychology audience looks. Alternative
 considered: bioRxiv (scoped to biology; a pure simulation paper fits awkwardly)
 and arXiv q-bio.NC (needs an endorser; friction for an independent author).
 
-## Before uploading, one decision: make the repo public
+## Repo status: PUBLIC as of 2026-08-10
 
-The paper's reproducibility section cites commit hashes as the preregistration
-audit trail. A public repository is what makes that claim checkable, and it also
-gives the git history third-party timestamps from today forward. Recommended
-sequence, run from `~/Desktop/Consciousness_Berkeley/project/rebus`:
-
-```bash
-gh repo create rebus-albus-sim --public --source . --push
-```
-
-Then add the URL it prints to the Reproducibility section of main.tex (one
-sentence: "Repository: <URL>"), recompile with `tectonic main.tex`, and upload
-that PDF. If you prefer not to publish the repo yet, upload as-is; the section
-already stands on its own, but a reviewer cannot verify the ordering claims.
+Done: https://github.com/ArtHangup/rebus-albus-sim (69 tracked files, no
+secrets, .venv excluded). The URL is in the paper's Reproducibility section and
+in the availability statement below. Upload the freshly compiled main.pdf.
 
 ## Form fields, ready to paste
 
@@ -82,8 +72,8 @@ API spend on a personal machine.
 
 **Data and code availability statement (paste if the form has one):** All
 simulation code, preregistration documents, amendments, and result files are in a
-git repository whose commit history orders every declaration before its
-implementation. [Add the repository URL if made public.]
+public git repository whose commit history orders every declaration before its
+implementation: https://github.com/ArtHangup/rebus-albus-sim
 
 ## Upload steps (your login)
 

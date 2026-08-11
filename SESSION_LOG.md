@@ -4,7 +4,16 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
-### Latest: safety-behaviors literature integrated; preprint package ready
+### Repo is PUBLIC (2026-08-10)
+
+- https://github.com/ArtHangup/rebus-albus-sim, pushed with full history, so all
+  preregistration commits now carry third-party timestamps. Pre-publish check:
+  69 tracked files, no secrets, .venv/pycache ignored, paper PDF gitignored.
+- Repo URL added to the paper's Reproducibility section and SUBMISSION.md;
+  recompiled. NEXT AND FINAL STEP IS JOSH'S: upload paper/main.pdf to PsyArXiv
+  per paper/SUBMISSION.md, then put the DOI on the poster and in this log.
+
+### Previous: safety-behaviors literature integrated; preprint package ready
 
 - Verified and integrated the prior-art literature the avoidance results needed:
   Salkovskis 1991 (safety behaviors prevent disconfirmation), Foa and Kozak 1986,
