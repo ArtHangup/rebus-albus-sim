@@ -4,7 +4,37 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
-### Latest: the compounding-sessions arm (AMENDMENT_9)
+### Latest: the ratchet arm (AMENDMENT_10, capture plus avoidance)
+
+- Declared predictions 38 to 41 at ca798a0 before ratchet.py existed. Acting agent
+  (costly deep probe) with capture-weighted learning across sessions.
+- P38 CONFIRMED where it matters: the first permanent entrenchment in ten
+  amendments. Cost 0.3 + capture locks conviction at 0.989 forever; cost 0.8 locks
+  at both kappas (0.946 / 1.000). At cost 0.3 without capture the ratchet is
+  transient (peak 0.844, recovery by session 17) because avoidance is
+  self-limiting: shallow eliminations migrate stored mass onto {0,1}, rebuilding
+  the doubt that reopens the test (usage rises 0.024 to 0.061). Capture starves
+  that channel (usage falls to 0.015): avoidance loads the trap, capture locks it.
+- P39: boundary confirmed but far harsher than the within-session crossover: at
+  cost 0.8 NO dose converges: d=1.0 dissolves conviction to 0.42 then stalls
+  forever with insight never crossing 0.5 (deep usage 0.001): dissolution without
+  insight as a permanent terminal state. The "subthreshold dosing is harmful" half
+  DIED as declared (0.977 treated vs 0.989 untreated: useless, not harmful; no
+  headroom because untreated already saturates).
+- P40 confirmed to infinity: cost 0.3 d=0.6 course 12 at j=5, never at j=20, at
+  FIXED mass (reversing the sessions arm's time-heals). Accumulating mass removes
+  the last rescue (even d=1.0 never at j=20).
+- P41 confirmed: no ratchet at cost 0 (recovery by session 4 both kappas).
+- Composition summary now standing: entrenchment requires avoidance plus one of
+  capture, high cost, or accumulated mass; treatment fails three observable ways
+  (late, subthreshold, evidence-starved), separated by the diagnostic-engagement
+  mediator.
+- Files: AMENDMENT_10.md, ratchet.py, ratchet_results.json, RATCHET_RESULTS.md,
+  figure_ratchet.png. Named next steps: derive the cost from expected self-model
+  revision; consider folding amendments 6 to 10 into the manuscript as a second
+  part or a follow-on paper.
+
+### Previous: the compounding-sessions arm (AMENDMENT_9)
 
 - Declared predictions 34 to 37 at 3615dd2 before sessions.py existed. Multi-session
   runs of the capture mechanism, both count-mass variants, with treatment protocols.
