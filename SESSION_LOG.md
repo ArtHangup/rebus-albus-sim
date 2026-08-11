@@ -4,6 +4,33 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### Latest: the compounding-sessions arm (AMENDMENT_9)
+
+- Declared predictions 34 to 37 at 3615dd2 before sessions.py existed. Multi-session
+  runs of the capture mechanism, both count-mass variants, with treatment protocols.
+- Mostly a graveyard of the declared predictions, reported as such, and the
+  failures are the findings:
+  - P34: shape confirmed (convex leak-then-break erosion), magnitude FAILED: capture
+    delays recovery 1.3x to 1.8x vs exact perception (declared bar was 3x), 3x to 6x
+    vs unbiased learning; S50 = 8 (fixed mass) / 23 (accum). No plateau, no climb:
+    cross-session compounding does not strengthen beliefs. CORRECTION issued inside
+    HIERARCHY_RESULTS.md: self-sealing is within-session freeze plus multi-session
+    delay, not destiny, in a stationary world.
+  - P35: core confirmed (the count-mass assumption decides whether chronicity
+    hurts), both declared shapes wrong: fixed mass = chronicity helps; accum =
+    non-monotone with a hardest window at j ~ 5, and the hump needs capture AND
+    accumulation jointly (kappa=1 accum is monotone).
+  - P36: dose threshold DEAD (declared alternative): every dose converges, dose
+    buys speed only. Contrast with the avoidance cost ceiling noted.
+  - P37: both shapes failed: at matched total exposure, protocol shape is
+    irrelevant under both mass variants (0.996/0.993/0.986 fixed;
+    0.634/0.643/0.636 accum); the mass assumption moves the level by 35 points.
+- Two more unstated assumptions now carry clinical answers: count-mass dynamics and
+  world stationarity. Named next arm: compose capture with avoidance (an acting
+  agent with biased perception that can stop sampling the world that would heal it).
+- Files: AMENDMENT_9.md, sessions.py, sessions_results.json, SESSIONS_RESULTS.md,
+  figure_sessions.png.
+
 ### Later still: the hierarchy-with-learning arm (AMENDMENT_8)
 
 - Declared predictions 30 to 33 at ab55a19 before hierarchy.py existed. Two-level
