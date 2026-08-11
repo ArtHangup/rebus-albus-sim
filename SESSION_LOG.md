@@ -4,7 +4,20 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
-### 2026-08-11: paper 2 written, interior window confirmed, abstract at draft 7
+### 2026-08-11: ABSTRACT SUBMITTED to BCSP
+
+- Josh submitted draft 8 (446 words) through the conference Typeform, five days
+  ahead of the Sunday 8/16 deadline. Selection context on record: inclusive
+  community poster session, events-staff committee, criteria are fit,
+  interdisciplinarity, originality. Draft 8 opens plain-language, ties to the
+  "edge of uncertainty" theme, keeps the exposure convergence central.
+- Now in flight: BCSP poster decision (no notification date published) and the
+  PsyArXiv moderation of paper 1. Remaining for October: build the poster to the
+  48 x 36 inch horizontal spec (panels planned in POSTER_ABSTRACT.md notes:
+  window map, gain discriminator, ratchet centerpiece, fork table, machine QR
+  corner); add the preprint DOI when it lands.
+
+### Earlier 2026-08-11: paper 2 written, interior window confirmed, abstract at draft 7
 
 - AMENDMENT_11 (commit 27da277, pushed publicly BEFORE the run: first externally
   timestamped declaration in the project): confirmatory fresh-seed replication of
