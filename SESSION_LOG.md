@@ -4,6 +4,33 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### Later still: the hierarchy-with-learning arm (AMENDMENT_8)
+
+- Declared predictions 30 to 33 at ab55a19 before hierarchy.py existed. Two-level
+  model (context, events, observations), persistence via Dirichlet-mean learning on
+  the stored context prior, four increment rules, precision at use time only.
+- P30 confirmed: hierarchy alone rescues nothing; exact reduction to the flat model.
+- P31 confirmed: learning inherits the consolidation fork. Dose spread positive
+  under posterior-driven learning, exactly 0.0000 under evidence-driven and decay
+  (paired draws). "Active inference provides persistence through learning" is true
+  and changes nothing: the increment source is the same unstated fork.
+- P32: (a) and (c) confirmed, (b) FAILED and reported dead: no emergent
+  self-strengthening anywhere (closest 0.799 vs start 0.8007). What appeared
+  instead: SELF-SEALING (post hoc, labeled): with ambiguous evidence (r=0.4) and
+  strong top-down perception (kappa=3), lasting conviction is frozen at ~0.79
+  across a 32-fold increase in learning and insight stays 0.000 at dose 0; dose
+  unfreezes encoding. Third rigidity defense: capture (interpretation), joining
+  avoidance (action) and gain (weighting).
+- P33 confirmed: direction shift of the learning target across dose is exactly 0
+  under evidence-driven learning, 0.72 posterior-driven, 1.36 encoding-driven:
+  plasticity scales belief change, relaxation redirects it; dissociable claims.
+- Files: AMENDMENT_8.md, hierarchy.py, hierarchy_results.json,
+  HIERARCHY_RESULTS.md, figure_hierarchy.png.
+- POSTER_ABSTRACT.md is now draft 5 (Josh/another track folded gwbench Tracks A and
+  B in); left untouched this round. If the poster wants the hierarchy arm, the line
+  is: "the framework's own learning mechanism inherits the fork, and hierarchical
+  perception gives rigid beliefs a third defense, interpretive capture."
+
 ### Later the same day: defensive edits and the gain-vs-avoidance arm
 
 - Defensive edits after an attack review with Josh: "never states" became "never
