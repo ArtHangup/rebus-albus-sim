@@ -93,9 +93,13 @@ measurable quantities: the sign of the low-dose change in diagnostic engagement
 
 - The gain form is one parameterization of "low-dose gain increase"; ALBUS describes
   hierarchical level-dependence this flat model cannot express.
-- The post hoc cells (costs 0.1, 0.2) were run after the main grid and are labeled;
-  the interior-window result should be treated as post hoc until re-run under a
-  declared grid.
+- The cells at costs 0.1 and 0.2 were originally post hoc. **CONFIRMED
+  2026-08-11 under AMENDMENT_11** (declared and pushed to the public repository
+  before running, fresh seed): the interior window reproduces at 0.17 to 0.55
+  against the original 0.17 to 0.57, the cost 0.2 region reproduces exactly
+  (0.03 to 0.72), and the A = 0 nulls hold (predictions 42 to 44, all within
+  declared tolerance; confirm_gain.py, confirm_gain_results.json). The
+  interior-window result is no longer post hoc.
 - All prior limits carry over: free parameters, one test, one belief, static world,
   belief dynamics only.
 
