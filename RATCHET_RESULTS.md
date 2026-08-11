@@ -99,6 +99,19 @@ mass outruns the course (chronicity failure). Every one of those failure modes i
 measurable prediction about behavior during treatment, and the mediator (diagnostic
 engagement) is the observable that separates them.
 
+## Prior art and positioning (added 2026-08-10, after a literature check)
+
+The ratchet is a formalization of a thirty-year-old clinical mechanism, not a
+discovery: safety behaviors maintain threat beliefs by preventing disconfirmation
+(Salkovskis 1991), exposure works by arranging the avoided test (Foa and Kozak
+1986; Craske et al. 2014), and Wolff et al. 2020 proposed that psychedelic
+relaxation enables avoidance-free exposure. Any write-up of this arm must lead
+with that positioning. What is new here: the self-limiting character of avoidance
+without capture (stored doubt reopens the test), capture as the lock, the three
+distinct treatment failure modes with the diagnostic-engagement mediator as their
+behavioral separator, and dissolution without insight as a terminal state. Those
+are the claims to defend; the loop itself belongs to the clinical literature.
+
 ## Limits
 
 - The cost is still imposed rather than derived; the untreatable regimes inherit

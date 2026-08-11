@@ -139,6 +139,27 @@ our knowledge nobody has previously swept a dose parameter through a single
 implemented model and reported where SEBUS gives way to REBUS, which is the experiment
 this paper runs.
 
+One further literature bears directly on our central result, and we flag it now so
+that the reader weighs the result correctly. The clinical account of
+safety-seeking behavior holds that anxious beliefs persist because the behaviors
+they motivate prevent the disconfirming test from ever being run
+\cite{salkovskis1991}, and exposure therapy is understood as the deliberate
+arrangement of that test \cite{foakozak1986,craske2014}. In the psychedelic
+literature specifically, Wolff and colleagues \cite{wolff2020} proposed a verbal
+model on which psychedelic belief relaxation enables episodes of relatively
+avoidance-free exposure, and prospective data show post-psychedelic reductions in
+experiential avoidance tracking reductions in depression severity
+\cite{zeifman2020avoid}. The computational psychosis literature models delusion
+maintenance through aberrant precision \cite{corlett2010,adams2013,sterzer2018}
+but does not implement the avoidance route. So the qualitative idea that avoidance
+maintains belief, and that psychedelics may act by interrupting avoidance, is not
+ours and is three decades old in its clinical form. What this paper adds is the
+formal result: precision mechanics alone cannot produce belief strengthening in
+this model family while a single avoidance term can, and relaxation's therapeutic
+role is then derivable rather than assumed, with quantitative consequences
+(a cost ceiling, a dose-zero peak, a mediating variable) that the verbal accounts
+do not fix.
+
 \section{The model and the preregistered mapping}
 \label{sec:model}
 
@@ -532,7 +553,22 @@ scope note belongs here rather than in a reviewer's report: ALBUS's own proposed
 mechanism, a low-dose gain increase on priors, was deliberately excluded from the
 dose mapping, because building it in produces SEBUS by construction and tests
 nothing. The informative question was whether SEBUS emerges without being assumed,
-and within this model family the only route that produced it was avoidance. Both theories are
+and within this model family the only route that produced it was avoidance.
+
+\textbf{Relation to the exposure account.} Read against the clinical literature
+(Section~\ref{sec:related}), the costly-test result is a formal implementation of
+the safety-behaviors account of belief maintenance \cite{salkovskis1991} and of
+the proposal that psychedelic relaxation enables avoidance-free exposure
+\cite{wolff2020}, inside REBUS's own precision vocabulary. We claim convergence,
+not discovery. The formalization earns its keep in what the verbal accounts leave
+open: it shows the avoidance term is necessary and not merely sufficient (three
+precision-only mechanisms fail), it derives rather than posits the drug's role
+(relaxation raises the epistemic value of the avoided test until it clears its
+cost, which is a mechanism for Wolff and colleagues' avoidance-free exposure), and
+it yields discriminating predictions the verbal accounts cannot state: engagement
+with the avoided test should rise with dose where therapy works, no dose should
+help above a cost ceiling, and strengthening should peak at dose zero. Each is a
+measurable claim about behavior during treatment. Both theories are
 underdetermined rather than refuted, and every point of underdetermination identified
 here is a measurable prediction: which quantity consolidation tracks, whether a
 dose-zero arm with integration support matches a dosed arm, whether strengthening
@@ -627,6 +663,41 @@ perceptual priors. \emph{Science}, 357(6351):596-600, 2017.
 \bibitem{allohverdi2025} S.~G. Allohverdi et al. Ketamine and psilocybin
 differentially impact sensory learning during the mismatch negativity.
 \emph{bioRxiv}, 2025. DOI 10.1101/2025.11.06.687023.
+
+\bibitem{salkovskis1991} P.~M. Salkovskis. The importance of behaviour in the
+maintenance of anxiety and panic: A cognitive account. \emph{Behavioural
+Psychotherapy}, 19(1):6-19, 1991.
+
+\bibitem{foakozak1986} E.~B. Foa and M.~J. Kozak. Emotional processing of fear:
+Exposure to corrective information. \emph{Psychological Bulletin}, 99(1):20-35,
+1986.
+
+\bibitem{craske2014} M.~G. Craske, M.~Treanor, C.~C. Conway, T.~Zbozinek, and
+B.~Vervliet. Maximizing exposure therapy: An inhibitory learning approach.
+\emph{Behaviour Research and Therapy}, 58:10-23, 2014.
+
+\bibitem{wolff2020} M.~Wolff, R.~Evens, L.~J. Mertens, M.~Koslowski, F.~Betzler,
+G.~Gr\"under, and H.~Jungaberle. Learning to let go: A cognitive-behavioral model
+of how psychedelic therapy promotes acceptance. \emph{Frontiers in Psychiatry},
+11:5, 2020.
+
+\bibitem{zeifman2020avoid} R.~J. Zeifman, A.~C. Wagner, R.~Watts, H.~Kettner,
+L.~J. Mertens, and R.~L. Carhart-Harris. Post-psychedelic reductions in
+experiential avoidance are associated with decreases in depression severity and
+suicidal ideation. \emph{Frontiers in Psychiatry}, 11:782, 2020.
+
+\bibitem{corlett2010} P.~R. Corlett, J.~R. Taylor, X.-J. Wang, P.~C. Fletcher,
+and J.~H. Krystal. Toward a neurobiology of delusions. \emph{Progress in
+Neurobiology}, 92(3):345-369, 2010.
+
+\bibitem{adams2013} R.~A. Adams, K.~E. Stephan, H.~R. Brown, C.~D. Frith, and
+K.~J. Friston. The computational anatomy of psychosis. \emph{Frontiers in
+Psychiatry}, 4:47, 2013.
+
+\bibitem{sterzer2018} P.~Sterzer, R.~A. Adams, P.~Fletcher, C.~Frith, S.~M.
+Lawrie, L.~Muckli, P.~Petrovic, P.~Uhlhaas, M.~Voss, and P.~R. Corlett. The
+predictive coding account of psychosis. \emph{Biological Psychiatry},
+84(9):634-643, 2018.
 
 \end{thebibliography}
 

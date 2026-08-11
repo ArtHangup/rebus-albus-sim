@@ -79,6 +79,22 @@ remove pre-existing strengthening until the dose is high enough. That distinctio
 and should not be smoothed over: ALBUS as usually read implies the drug actively
 strengthens beliefs at low doses, and nothing here does that.
 
+## Prior art and positioning (added 2026-08-10, after a literature check)
+
+The qualitative claim that avoidance maintains belief is not new. It is the
+safety-behaviors account (Salkovskis 1991, Behavioural Psychotherapy 19:6-19):
+threat beliefs persist because the behaviors they motivate prevent disconfirmation,
+and exposure therapy deliberately arranges the missing test (Foa and Kozak 1986;
+Craske et al. 2014). In the psychedelic literature, Wolff et al. 2020 (Frontiers in
+Psychiatry 11:5) proposed verbally that belief relaxation enables avoidance-free
+exposure, and Zeifman et al. 2020 (Frontiers in Psychiatry 11:782) found
+post-psychedelic reductions in experiential avoidance tracking symptom change.
+**Claim convergence, not discovery.** What this arm adds over the verbal accounts:
+avoidance is necessary and not just sufficient (three precision mechanisms fail),
+the drug's role is derived (relaxation reprices the avoided test), and the ceiling,
+dose-zero peak, and mediator are quantitative predictions the verbal accounts do
+not fix. The manuscript now carries this positioning.
+
 ## What to claim, and what not to
 
 **Claim:** SEBUS requires avoidance of a diagnostic test, not altered precision. Three
