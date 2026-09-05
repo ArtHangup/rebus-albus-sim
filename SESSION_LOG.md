@@ -6,13 +6,13 @@ Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
 ### BCSP poster application DENIED
 
-- No stated reason on record. Note for calibration: the selection context read as
-  inclusive (open eligibility, events-staff committee), and the assistant's read
-  was that acceptance was likely; that read was wrong. Plausible factors: board
-  capacity, the abstract's technical density against a humanities-leaning
-  program, community-fit vibes, or the unaffiliated author again. Unknowable
-  without asking; a polite one-line feedback request to bcspevents@berkeley.edu
-  is drafted on demand.
+- Form rejection dated 2026-08-31 (per the project memory, Gmail thread
+  1a0594076a5098e1): "large number of high quality submissions for a very
+  limited number of spots," with an invitation to attend anyway. Attendance is
+  now optional per Josh's earlier decision; the 48x36 poster has no BCSP slot.
+- Calibration note kept honestly: the assistant read the session as inclusive
+  and acceptance as likely; that read was wrong. A capacity form letter does not
+  say whether density, fit, or the unaffiliated author mattered.
 - What is unaffected: the work, the repo, the Zenodo DOI path, the journal plan
   (JOURNAL_OPTIONS.md), the article pitch, and the direct-outreach review plan
   (Wolff, Safron, Adams/Corlett), which was the highest-value channel anyway.
