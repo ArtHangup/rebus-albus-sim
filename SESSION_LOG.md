@@ -4,6 +4,24 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### BCSP poster application DENIED
+
+- No stated reason on record. Note for calibration: the selection context read as
+  inclusive (open eligibility, events-staff committee), and the assistant's read
+  was that acceptance was likely; that read was wrong. Plausible factors: board
+  capacity, the abstract's technical density against a humanities-leaning
+  program, community-fit vibes, or the unaffiliated author again. Unknowable
+  without asking; a polite one-line feedback request to bcspevents@berkeley.edu
+  is drafted on demand.
+- What is unaffected: the work, the repo, the Zenodo DOI path, the journal plan
+  (JOURNAL_OPTIONS.md), the article pitch, and the direct-outreach review plan
+  (Wolff, Safron, Adams/Corlett), which was the highest-value channel anyway.
+- What changes: the poster has no BCSP slot. Josh is still registered to attend;
+  conversations can happen without a poster (one-pager handout + QR card version
+  of the poster is a cheap derivative if he goes). Eleos ConCon Sept 18-20
+  becomes the primary candidate venue for presenting; check its submission
+  process. The built poster keeps: it retargets to whatever venue accepts.
+
 ### 2026-08-12: PsyArXiv REJECTED paper 1 on credentials; plan B active
 
 - Moderator rejection, final: their expertise policy requires prior peer-reviewed
