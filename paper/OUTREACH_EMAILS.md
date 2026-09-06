@@ -1,5 +1,11 @@
 # Direct outreach drafts: three emails, one specific question each
 
+**STATUS 2026-09-06: all three are sitting as DRAFTS in Josh's Gmail**, DOI
+included, addressed to max.wolff@mind-foundation.org, asafron@gmail.com, and
+rick.adams@ucl.ac.uk. Verify the Safron address before sending (it came from a
+contact-lookup listing, moderate confidence; his X account @adamsafron is the
+fallback). Josh reviews and sends.
+
 Prepared 2026-09-05. Drafts only; Josh sends from josh@envitae.io. Before sending:
 do the Zenodo upload so each email can carry the DOI, and swap it in where
 marked. Keep each under 200 words; the specific question is the whole trick.

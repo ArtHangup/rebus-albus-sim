@@ -6,6 +6,10 @@ Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
 ### 2026-09-06: DOI LIVE. https://doi.org/10.5281/zenodo.22547758
 
+- Outreach drafts CREATED IN GMAIL (drafts folder, nothing sent): Wolff
+  (max.wolff@mind-foundation.org), Safron (asafron@gmail.com, verify before
+  send), Adams (rick.adams@ucl.ac.uk). Josh reviews and sends.
+
 - Zenodo record verified (title, author Rogers Joshua Lorne, Preprint, CC-BY,
   main.pdf attached). Paper 1 is permanently citable; no gatekeeper controls it.
 - DOI threaded everywhere: the three outreach emails (now fully sendable), the
