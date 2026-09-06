@@ -19,32 +19,29 @@ Preregistered Simulations of REBUS and ALBUS}}
 \maketitle
 
 \begin{abstract}
-\noindent REBUS holds that psychedelics reduce the precision of high-level priors,
-permitting belief revision that rigid priors prevent. ALBUS replies that at low doses
-beliefs are instead strengthened (SEBUS), with relaxation appearing only at higher
-doses. Neither account has published equations or code. We built the minimal Bayesian
-agent both theories describe, preregistered the mapping from each paper's stated claims
-to model parameters (committed to a git history before any code ran, for every arm),
-and swept dose against evidence quality across billions of simulated agents. Three
-findings. First, REBUS as literally stated produces no lasting change at all: dose
-transforms the acute state, and the effect evaporates when precision returns to
-baseline. The failure is structural rather than numerical, so something must make
-revision stick, and that something is not in the theory. Second, adding a consolidation
-process, it acts as a gate: below a threshold, lasting insight is exactly zero at every
-dose, and above it dose scales the yield. But four defensible parameterizations of what
-consolidation operates on disagree about whether the drug matters at all (under one,
-the best available outcome occurs at dose zero), whether integration can be made safe,
-and whether entrenched beliefs are treatable. The gate also passes false beliefs,
-though in every mechanism tested false insight requires more consolidation than true
-insight, so a safe integration window exists whose width depends on which mechanism is
-right. Third, SEBUS never emerges from precision mechanics: passive relaxation,
-epistemic action under a correct model, and miscalibrated self-knowledge all fail to
-produce it. It appears only when the diagnostic test carries a cost. Strengthening is
-avoidance, and the mediating variable identifies what the drug does: prior relaxation
-raises the epistemic value of an avoided test until it is worth running. Above a cost
-ceiling, no dose helps. The general lesson is methodological: implementing a theory's
-functional claim forces an assumption the theory never specifies, and that assumption,
-not the theory, decides the result. Every disagreement above is a measurable prediction.
+\noindent REBUS proposes that psychedelics reduce the precision of high-level
+priors, permitting belief revision; ALBUS predicts low-dose belief strengthening
+(SEBUS). Neither theory has a runnable implementation. We implemented the minimal
+Bayesian agent both describe, preregistering every mapping from text to
+parameters in a public git history before writing the code it governed, across
+numbered predictions whose failures are reported alongside confirmations. Three
+results. First, REBUS as literally stated produces no lasting change: dose enters
+only through a precision that reverts, so it cannot appear in the terminal
+belief. Second, adding consolidation rescues persistence but introduces a fork:
+four defensible parameterizations of what consolidation operates on disagree
+about whether dose affects the lasting outcome at all, whether integration can be
+made safe, and whether entrenched beliefs are treatable; in every mechanism
+tested, false insight requires more consolidation than true insight, so a safe
+integration window exists. Third, SEBUS never emerges from precision
+manipulations (passive relaxation, epistemic action under a correct model,
+miscalibrated self-knowledge) and appears only when the single diagnostic test
+carries a cost the agent declines to pay, converging with the clinical
+safety-behaviors account of belief maintenance: prior relaxation acts by raising
+the epistemic value of the avoided test until it clears its cost, and above a
+cost ceiling no dose helps. Implementing a theory's functional claims forces
+assumptions the theory does not specify, and those assumptions, not the theories,
+decide the clinically relevant results. Each divergence is a measurable
+prediction.
 \end{abstract}
 
 \section{Introduction}
@@ -532,7 +529,7 @@ remove pre-existing strengthening until the dose is high enough. ALBUS as usuall
 read implies the drug actively strengthens beliefs at low doses, and nothing here
 does that.
 
-\section{What to claim, and what not to}
+\section{Discussion}
 \label{sec:claims}
 
 \textbf{Claim.} REBUS as stated is incomplete: without a consolidation process
@@ -574,7 +571,7 @@ here is a measurable prediction: which quantity consolidation tracks, whether a
 dose-zero arm with integration support matches a dosed arm, whether strengthening
 covaries with avoidance rather than with dose.
 
-\section{Limitations}
+\subsection{Limitations}
 \label{sec:limitations}
 
 \begin{enumerate}

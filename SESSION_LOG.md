@@ -4,6 +4,32 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### 2026-09-05: "do all" pass. Outreach, Eleos, CB&B package, manuscript prep
+
+- OUTREACH_EMAILS.md (paper/): three drafts ready to send, one specific question
+  each. Wolff (does the implementation misrepresent the ACE model; what
+  signature of avoidance-free exposure would he predict), Safron (is the gain
+  mapping a fair rendering of SEBUS; if not, which functional form), Adams
+  (does the ratchet duplicate existing comp psychiatry work; is the engagement
+  mediator measurable). Adams's address is public (rick.adams@ucl.ac.uk);
+  Wolff via MIND Foundation, Safron via adamsafron.com. BLOCKED ON: Zenodo DOI
+  to slot into each email. Josh sends.
+- ELEOS_SUBMISSION.md (paper/): conference is Sept 18-20, two weeks out; no
+  public call, poster session exists, route = interest form
+  (forms.gle/bbi25rtWvrifw7ev7) + email to info@eleosai.org, draft included.
+  FIT NOTE: Eleos is an AI consciousness and welfare audience; the pitch leads
+  with gwbench and the perturbation method, psychedelics work as origin story;
+  the REBUS/ALBUS poster does not go there as built.
+- CBB_SUBMISSION.md (paper/): full Computational Brain and Behavior package:
+  subscription route ($0), 245-word abstract (their 150-250 limit), cover
+  letter, suggested reviewers (Huys, Moutoussis, Wise; no principals),
+  declarations, order of operations.
+- paper/main.tex updated: submission abstract swapped in (241 words), Section 7
+  retitled Discussion with Limitations as its subsection. Compiles clean.
+- Zenodo checked: no record found for the title; the upload has NOT happened
+  yet and remains the single blocking dependency for the emails, the CB&B
+  cover letter, and the article pitch.
+
 ### BCSP poster application DENIED
 
 - Form rejection dated 2026-08-31 (per the project memory, Gmail thread
