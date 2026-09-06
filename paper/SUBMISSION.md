@@ -1,5 +1,8 @@
 # Preprint submission package: paper 1
 
+**DOI LIVE 2026-09-06: https://doi.org/10.5281/zenodo.22547758** (Zenodo, CC-BY, verified: title, author, PDF all
+correct). This supersedes everything below about pending status.
+
 **STATUS 2026-08-12: REJECTED by PsyArXiv moderation.** Grounds: their expertise
 policy ("we need to look at the author's expertise via past publications"; no
 prior peer-reviewed record found). The manuscript itself was not evaluated.

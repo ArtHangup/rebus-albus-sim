@@ -37,7 +37,7 @@ you would predict that I could compute? Criticism, especially where this is wron
 or already known, is exactly what I am after; one sentence pointing at the
 weakest link would be genuinely valuable.
 
-Paper and full audit trail: [ZENODO DOI], github.com/ArtHangup/rebus-albus-sim
+Paper and full audit trail: https://doi.org/10.5281/zenodo.22547758, github.com/ArtHangup/rebus-albus-sim
 
 Joshua Rogers, independent researcher
 
@@ -66,7 +66,7 @@ SEBUS's mechanism at the level ALBUS intends, and if not, which functional form
 would be? I would much rather be corrected than cited. One sentence on the
 weakest link would be valuable.
 
-Paper and audit trail: [ZENODO DOI], github.com/ArtHangup/rebus-albus-sim
+Paper and audit trail: https://doi.org/10.5281/zenodo.22547758, github.com/ArtHangup/rebus-albus-sim
 
 Joshua Rogers, independent researcher
 
@@ -94,6 +94,6 @@ psychiatry results I have missed, and would the engagement mediator be measurabl
 with existing task batteries? Criticism is the goal; one sentence on the weakest
 link would be genuinely useful.
 
-Paper and audit trail: [ZENODO DOI], github.com/ArtHangup/rebus-albus-sim
+Paper and audit trail: https://doi.org/10.5281/zenodo.22547758, github.com/ArtHangup/rebus-albus-sim
 
 Joshua Rogers, independent researcher

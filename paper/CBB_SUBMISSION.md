@@ -69,7 +69,7 @@ safety-behaviors account of belief maintenance, with discriminating behavioral
 predictions stated in one observable.
 
 All code, preregistration documents, amendments, and results are public at
-github.com/ArtHangup/rebus-albus-sim, with an archived version at [ZENODO DOI].
+github.com/ArtHangup/rebus-albus-sim, with an archived version at https://doi.org/10.5281/zenodo.22547758.
 The work received no funding, has no conflicts of interest, and is submitted
 solely to this journal. I am an independent researcher; the audit trail is
 constructed so that every ordering claim can be verified without reference to
@@ -97,7 +97,7 @@ coauthors); expect one as a reviewer anyway and let the editor choose that.
   usage on a personal machine.
 - Data and code availability: All simulation code, preregistration documents,
   amendments, and result files are publicly available at
-  github.com/ArtHangup/rebus-albus-sim (archived at [ZENODO DOI]). The git
+  github.com/ArtHangup/rebus-albus-sim (archived at https://doi.org/10.5281/zenodo.22547758). The git
   commit history orders every preregistered declaration before its implementing
   code.
 - Ethics: Not applicable; the work contains no human or animal data.

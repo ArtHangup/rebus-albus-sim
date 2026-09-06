@@ -145,4 +145,4 @@ usually the one worth asking.
 ---
 
 *Joshua Rogers is an independent researcher. The simulations, preregistrations,
-and both technical papers are at github.com/ArtHangup/rebus-albus-sim.*
+and both technical papers are at github.com/ArtHangup/rebus-albus-sim; the paper is archived at https://doi.org/10.5281/zenodo.22547758.*

@@ -4,6 +4,20 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### 2026-09-06: DOI LIVE. https://doi.org/10.5281/zenodo.22547758
+
+- Zenodo record verified (title, author Rogers Joshua Lorne, Preprint, CC-BY,
+  main.pdf attached). Paper 1 is permanently citable; no gatekeeper controls it.
+- DOI threaded everywhere: the three outreach emails (now fully sendable), the
+  CB&B cover letter and availability statement, SUBMISSION.md status, the
+  article footer, paper 1's Reproducibility section, paper 2's companion
+  citation, and the poster title band, which now carries TWO QRs (paper DOI +
+  repo) and is print-ready. All three documents recompiled clean.
+- UNBLOCKED and waiting on Josh, in order: send the three outreach emails
+  (OUTREACH_EMAILS.md); Eleos interest form + pitch email this week
+  (ELEOS_SUBMISSION.md, conference Sept 18-20); CB&B submission
+  (CBB_SUBMISSION.md, no deadline); article pitch (now has a citable DOI).
+
 ### 2026-09-05: "do all" pass. Outreach, Eleos, CB&B package, manuscript prep
 
 - OUTREACH_EMAILS.md (paper/): three drafts ready to send, one specific question
