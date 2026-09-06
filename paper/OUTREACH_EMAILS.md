@@ -1,6 +1,6 @@
 # Direct outreach drafts: three emails, one specific question each
 
-**STATUS 2026-09-06: all three are sitting as DRAFTS in Josh's Gmail**, DOI
+**STATUS: SENT by Josh 2026-09-06** (Wolff resent to max.wolff@charite.de after the MIND Foundation address bounced). Original staging note:** all three were sitting as DRAFTS in Josh's Gmail**, DOI
 included, addressed to max.wolff@mind-foundation.org, asafron@gmail.com, and
 rick.adams@ucl.ac.uk. Verify the Safron address before sending (it came from a
 contact-lookup listing, moderate confidence; his X account @adamsafron is the

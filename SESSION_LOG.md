@@ -4,6 +4,22 @@
 
 Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
 
+### 2026-09-06, later: outreach sent, Eleos done, Wolff address fixed
+
+- Josh SENT all three outreach emails. The Wolff address bounced
+  (max.wolff@mind-foundation.org no longer exists); replacement draft created
+  and staged to max.wolff@charite.de, his corresponding-author address on the
+  2024 GCMQ paper (PMC11102652). Safron and Adams sends are out.
+- ELEOS DONE, both halves: pitch email drafted in Gmail to info@eleosai.org
+  (Josh sends), and the interest form SUBMITTED via Josh's Chrome
+  (josh@envitae.io recorded; name, independent researcher, Claremont CA, not a
+  student; background AI/ML research + cognitive science + consciousness
+  research; work blurb with the DOI; topics suggestion; note about the poster
+  offer; copy-of-responses toggled on; confirmation screen verified: "Your
+  response has been recorded").
+- Remaining sends on Josh: the Eleos pitch email draft, the CB&B journal
+  submission, the article pitch.
+
 ### 2026-09-06: DOI LIVE. https://doi.org/10.5281/zenodo.22547758
 
 - Outreach drafts CREATED IN GMAIL (drafts folder, nothing sent): Wolff
