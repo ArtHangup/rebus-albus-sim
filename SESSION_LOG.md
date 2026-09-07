@@ -19,6 +19,12 @@ Work this session, newest first. Poster abstract deadline is Sunday 2026-08-16.
   response has been recorded").
 - Remaining sends on Josh: the Eleos pitch email draft, the CB&B journal
   submission, the article pitch.
+- JOURNAL SUBMISSION SCHEDULED: calendar event on Josh's primary calendar for
+  Tue 2026-09-15, 9am Pacific. Decision rule: submit to Computational Brain and
+  Behavior that day regardless of outreach replies; fold in any expert feedback
+  first. Venue decision made: CB&B free subscription route over NoC's $2,156
+  APC (openness already covered by repo + Zenodo DOI; the NoC audience already
+  has the paper via direct outreach).
 
 ### 2026-09-06: DOI LIVE. https://doi.org/10.5281/zenodo.22547758
 
